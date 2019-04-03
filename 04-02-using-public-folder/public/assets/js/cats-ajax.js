@@ -17,7 +17,7 @@ $.ajax({
 			// p.text("id: " + cats[catIndex].id + ", cat name: " + cats[catIndex].cat_name)
 
 		//another way
-			p.text(`id: ${cats[catIndex].id}, cat name: ${cats[catIndex].cat_name}`)
+			p.text(`id: ${cats[catIndex].id}, cat name: ${cats[catIndex].name}`)
 
 
 		$('div').append(p);
